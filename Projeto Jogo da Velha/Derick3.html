@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="Cssjogodavelha.css">
+        <title>Jogo da Velha</title>
+    </head>
+
+
+    <body onload="startGame()">
+ 
+<!--PORTA CENTRAL--><div class="game">
+<!--PORTA-->                <div class="area display-area" style="background-color: gray;">
+<!--SUB PORTA-->                  <div class="display players-wrapper">
+                                      <div class="player">
+                                        <label>Player X - </label>
+                                        <span class="score">0</span>
+                                      </div>
+     
+                                      <div class="player">
+                                        <label>Player O - </label>
+                                        <span class="score">0</span>
+                                      </div>
+                                  </div>
+                                  
+<!--SUB PORTA-->                  <div class="display ms-wrapper">
+                                      <div class="msg"> Start Gamer </div>
+                                  </div>
+                              </div>
+     
+<!--PORTA-->                  <div class="area board-area" style="background-color: blue;">
+<!--SUB PORTA-->                  <div class="row">
+                                      <div class="col">
+                                          <div class="piece"></div>
+                                      </div>
+
+                                      <div class="col">
+                                          <div class="piece"></div>
+                                      </div>
+
+                                      <div class="col">
+                                          <div class="piece"></div>
+                                      </div>
+                                  </div>  
+
+<!--SUB PORTA-->                <div class="row">
+                                    <div class="col">
+                                        <div class="piece"></div>
+                                    </div>
+
+                                    <div class="col">
+                                        <div class="piece"></div>
+                                    </div>
+
+                                    <div class="col">
+                                        <div class="piece"></div>
+                                    </div>
+                                </div> 
+
+<!--SUB PORTA-->                <div class="row">
+                                    <div class="col">
+                                        <div class="piece"></div>
+                                    </div>
+
+                                    <div class="col">
+                                        <div class="piece"></div>
+                                    </div>
+
+                                    <div class="col">
+                                        <div class="piece"></div>
+                                    </div>
+                                </div>  
+                                         
+                              </div>
+     
+<!--PORTA-->                  <div class="area action-area" style="background-color: red;">
+<!--SUB PORTA-->                  <div class="display wrapper btn-wrapper">
+                                      <div class="btn btn-restat-game restart-btn">
+                                          Restart Game
+                                      </div>
+                                  </div>
+                              </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+         <script type="text/javascript" src="JSjogodavelha.js"></script>
+    <!-- <script type="text/javascript">
+            startGame();
+        </script>"-->
+    </body>
+
+
+    </html>
+
